@@ -1,17 +1,17 @@
-````markdown
+markdown
 Criamos um sistema baseado em um torneio de RPG
 
 Integrantes do Grupo
 ````
-- **Carlos Henrique Legutcke Filho** — **RA:1988772**
-- **Lucas Gomes Mendonça Chagas** — **RA: 1996576**
+- Carlos Henrique Legutcke Filho — RA:1988772
+- Lucas Gomes Mendonça Chagas — RA: 1996576
 ---
 ````
 ## 1. Requisitos
 Para executar este projeto, você precisa ter instalado em sua máquina:
-
+````
 - Python 3.8+
-
+````
 ---
 
 ## 2. Instalação e Configuração
@@ -19,7 +19,7 @@ Para executar este projeto, você precisa ter instalado em sua máquina:
    ````bash
    git clone https://github.com/seu-usuario/torneio-rpg.git
    cd torneio-rpg
-````
+
 
 ## 1. Estrutura de Pastas
 
