@@ -112,7 +112,7 @@ Siga as instruções exibidas:
     
 * **Dicionário**
 
-  * Mapeia nomes de times para objetos `Time.
+  * Mapeia nomes de times para objetos time.
   * Armazena, de forma direta, em qual fase cada time foi eliminado.
 
 ---
