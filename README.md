@@ -3,7 +3,7 @@ Criamos um sistema baseado em um torneio de RPG
 
 Integrantes do Grupo
 - **Carlos Henrique Legutcke Filho** — RA:1988772
-- **Beltrano da Silva** — RA: 87654321
+- **Lucas Gomes Mendonça Chagas** — RA: 1996576
 ---
 
 ## 1. Requisitos
