@@ -9,12 +9,12 @@ Integrantes do Grupo
 ## 1. Requisitos
 Para executar este projeto, você precisa ter instalado em sua máquina:
 
-- **Python 3.8+**
+- Python 3.8+
 
 ---
 
 ## 2. Instalação e Configuração
-1. **Clonar o repositório**
+1. Clonar o repositório
    ````bash
    git clone https://github.com/seu-usuario/torneio-rpg.git
    cd torneio-rpg
