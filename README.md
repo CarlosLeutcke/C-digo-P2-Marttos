@@ -30,6 +30,7 @@ Para executar este projeto, você precisa ter instalado em sua máquina:
 ├── entidades.py       # Definição de classes Jogador e Time
 ├── combate.py         # Lógica de simulação de luta entre dois times
 ├── torneio.py         # Gestão do torneio e exibição das colocações
+├── estrutura.py       # Organização da ordem dos players e NPCs
 └── README.md          # Documento descritivo (este arquivo)
 ```
 
