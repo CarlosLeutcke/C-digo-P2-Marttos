@@ -17,9 +17,8 @@ Para executar este projeto, você precisa ter instalado em sua máquina:
 ## 2. Instalação e Configuração
 1. Clonar o repositório
    ````bash
-   git clone https://github.com/seu-usuario/torneio-rpg.git
-   cd torneio-rpg
-
+   git clone https://github.com/CarlosLeutcke/Codigo-P2-Marttos.git
+   cd Codigo-P2-Marttos
 
 ## 1. Estrutura de Pastas
 
