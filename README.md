@@ -74,7 +74,7 @@ O sistema criado simula um torneio em grupo com combate estilo RPG, composto por
 No terminal:
 
 ```bash
-python index.py
+python main.py
 ```
 
 Siga as instruções exibidas:
