@@ -22,8 +22,9 @@ Para executar este projeto, você precisa ter instalado em sua máquina:
 
 ## 1. Estrutura de Pastas
 
-```
+
 **torneio-rpg**
+```
 │
 ├── combate.py         # Lógica de simulação de luta entre dois times
 ├── create.py          # Funções de registro de jogadores e geração de NPCs
