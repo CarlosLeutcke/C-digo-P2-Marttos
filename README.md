@@ -25,12 +25,12 @@ Para executar este projeto, você precisa ter instalado em sua máquina:
 ```
 **torneio-rpg**
 │
-├── main.py            # Script principal com o menu e orquestração
+├── combate.py         # Lógica de simulação de luta entre dois times
 ├── create.py          # Funções de registro de jogadores e geração de NPCs
 ├── entidades.py       # Definição de classes Jogador e Time
-├── combate.py         # Lógica de simulação de luta entre dois times
-├── torneio.py         # Gestão do torneio e exibição das colocações
 ├── estrutura.py       # Organização da ordem dos players e NPCs
+├── main.py            # Script principal com o menu e orquestração
+├── torneio.py         # Gestão do torneio e exibição das colocações
 └── README.md          # Documento descritivo (este arquivo)
 ```
 
