@@ -6,7 +6,6 @@ Integrantes do Grupo
 ````
 - Carlos Henrique Legutcke Filho — RA:1988772
 - Lucas Gomes Mendonça Chagas — RA: 1996576
----
 ````
 ## 1. Requisitos
 Para executar este projeto, você precisa ter instalado em sua máquina:
