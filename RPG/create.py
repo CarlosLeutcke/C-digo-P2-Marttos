@@ -1,6 +1,6 @@
 import random                                    # importa módulo para operações aleatórias
-from estrutura import FilaEncadeada               # traz a estrutura de fila encadeada
-from entidades import Jogador                     # importa a classe Jogador
+from estrutura import FilaEncadeada               
+from entidades import Jogador                     
 
 # listas e estruturas globais
 jogadores = []                                   # lista para armazenar todos os jogadores (NPCs e humanos)
@@ -10,8 +10,8 @@ times = {}                                       # dicionário para armazenar ti
 
 # constantes de dados
 NOMES_NPC = ["João", "Maria", "Fulano", "Cleber", "Bianca", 
-             "Arthur", "Iago", "Igor", "Fernado", "Julia"]  # nomes base para gerar NPCs
-CLASSES = ["Guerreiro", "Mago", "Clérigo", "Ladino"]        # possíveis classes de personagens
+             "Arthur", "Iago", "Igor", "Fernado", "Julia"]  
+CLASSES = ["Guerreiro", "Mago", "Clérigo", "Ladino"]       
 
 def gerar_npcs(quantidade):
     """Gera 'quantidade' de NPCs com nomes, níveis e classes aleatórias."""
@@ -26,7 +26,7 @@ def gerar_npcs(quantidade):
         jogadores.append(npc)                    # adiciona NPC à lista de jogadores
         nomes_registrados.add(nome)              # registra o nome no set de nomes usados
         fila_jogadores.enfileirar(npc)           # enfileira o NPC na fila encadeada
-    print(f"Gerados {quantidade} NPCs e adicionados à fila.")  # feedback ao usuário
+    print(f"Gerados {quantidade} NPCs e adicionados à fila.")  
 
 def registrar_jogador():
     """Solicita dados do usuário para cadastrar um novo jogador humano."""
