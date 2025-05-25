@@ -38,7 +38,7 @@ frases_ataque = {                                # dicionário de frases por tip
 
 def simular_luta(t1: Time, t2: Time) -> Time:
     # Inicialização de estados
-    for p in t1.jogadores + t2.jogadores:        # para cada jogador de ambos os times
+    for p in t1.jogadores + t2.jogadores:       
         p.hp = 100                               # define HP inicial como 100
         p.defendeu = False                       # reseta flag de defesa
 
