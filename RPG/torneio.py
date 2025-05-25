@@ -1,5 +1,5 @@
-import random                                    # importa módulo para gerar números aleatórios
-from combate import simular_luta                  # importa função de simulação de luta entre dois times
+import random                                    
+from combate import simular_luta                  
 
 def simular_torneio(times: dict):
     """
