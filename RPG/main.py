@@ -1,9 +1,9 @@
-import sys                                    # importa módulo para controle do sistema (para sys.exit)
-import random                                 # importa módulo para geração de números aleatórios
-from create import jogadores, times, gerar_npcs, registrar_jogador  # importa listas globais e funções de criação de jogadores e NPCs
-from entidades import Jogador, Time           # importa classes de entidade: Jogador e Time
-from combate import simular_luta              # importa função que simula uma luta entre dois times
-from torneio import simular_torneio, mostrar_colocacoes  # importa funções de torneio e exibição de colocações
+import sys                                   
+import random                                
+from create import jogadores, times, gerar_npcs, registrar_jogador  
+from entidades import Jogador, Time          
+from combate import simular_luta             
+from torneio import simular_torneio, mostrar_colocacoes 
 
 def listar_jogadores():
     if not jogadores:                         # verifica se a lista de jogadores está vazia
