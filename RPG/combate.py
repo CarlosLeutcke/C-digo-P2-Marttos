@@ -44,7 +44,7 @@ def simular_luta(t1: Time, t2: Time) -> Time:
 
     # Iniciativas
     ordem = []                                   # lista para guardar tuplas (iniciativa, jogador)
-    print("Iniciativas:")                        # imprime cabeçalho
+    print("Iniciativas:")                       
     for p in t1.jogadores + t2.jogadores:        # calcula iniciativa para cada jogador
         ini = random.randint(1,20)               # rola d20 aleatório
         ordem.append((ini, p))                   # armazena valor e referência
@@ -53,7 +53,7 @@ def simular_luta(t1: Time, t2: Time) -> Time:
     ordem = [p for _, p in ordem]                # extrai apenas jogadores na ordem
     print("Ordem de ação:", ", ".join(p.nome for p in ordem))  # exibe sequência de ação
 
-    round_num = 1                                 # contador de rodada
+    round_num = 1                                 
     while any(p.hp > 0 for p in t1.jogadores) and any(p.hp > 0 for p in t2.jogadores): # enquanto ambos os times tiverem jogadores com HP > 0
         print(f"\n--- Round {round_num} ---")    # cabeçalho de round
         for p in ordem:                          # itera conforme a ordem de iniciativa
